@@ -1,0 +1,32 @@
+.image {
+  position: absolute;
+  bottom: 0;
+  height: 50%;
+  display: none;
+  margin: 1em;
+}
+
+.image.user {
+  left: 0;
+}
+
+.image.me {
+  right: 0;
+  transform: scaleX(-1);
+}
+
+.image.ready {
+  display: block;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background-image: url('https://cdn.wallpapersafari.com/51/33/6hguPU.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
